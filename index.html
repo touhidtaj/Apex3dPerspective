@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="ad.size" content="width=300,height=250">
+    <title>Apex New Year Sale</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <style>
+        #demo__img {
+        	/*transform: scale(.95);*/
+            background-image: url('fg.png') !important;
+            background-size: cover;
+            top: 0
+        }
+
+        .demo__content:before {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 240px;
+            height: 200px;
+            background-color: black;
+            background-image: url('bg.jpg') !important;
+            /*background-color: transparent;*/
+            background-size: cover;
+            border-radius: 8px;
+            border: 2px;
+            box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5)
+        }
+    </style>
+</head>
+<body>
+<a href="{CLICK_MACRO}" target="_blank">
+	<div id="adRect" style="border: none; cursor:pointer;">
+    <div class="demo" id="demo">
+        <div class="demo__content">
+            <div class="demo__img" id="demo__img"></div>
+        </div>
+    </div>
+</div>
+</a>
+</body>
+</html>
